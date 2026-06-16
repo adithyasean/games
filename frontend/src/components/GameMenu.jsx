@@ -17,6 +17,13 @@ export default function GameMenu({ onSelect }) {
           <span className={styles.badge}>Active</span>
         </button>
 
+        <button className={styles.menuCard} onClick={() => onSelect("zebra-puzzle")}>
+          <span className={styles.menuIcon}>🦓</span>
+          <h2>Zebra Puzzle</h2>
+          <p>Einstein's Riddle logic puzzle. Place variables dynamically and satisfy 15 clues to find who owns the fish!</p>
+          <span className={styles.badge}>Active</span>
+        </button>
+
         <button className={styles.menuCard} disabled>
           <span className={styles.menuIcon}>🎲</span>
           <h2>Dice Game</h2>
